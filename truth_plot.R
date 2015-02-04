@@ -30,16 +30,16 @@ truth <- function(d, stat.type, square, is.pdf = F){
 	if(d$FP > 0 | d$FN > 0 | d$TN < 0 | d$TP < 0) {return.error();return()}
 		
 	q <- ggplot(d) + geom_rect(aes(xmin=FP, xmax=TN, ymin=FN, ymax=TP),
-				   		      colour = 'black',
-				   		      fill = frame.fill,
-				   		      alpha = .05, 
-				   		      size = 2)
+								colour = 'black',
+								fill = frame.fill,
+								alpha = .05, 
+								size = 2)
     
   if(is.null(stat.type))
     return(NULL)
     
 		if (stat.type == 'chisq_stat' | stat.type == 'chisq_p'){
-		  
+			
 		  with(abs(d), {
 		    r1 <- TP + FP; r2 <- FN + TN
 		    c1 <- TP + FN; c2 <- FP + TN
