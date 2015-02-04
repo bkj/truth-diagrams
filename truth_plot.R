@@ -1,4 +1,27 @@
 # <<< Truth Plot >>>
+
+# d is a dataframe of the following form
+# d  <-  data.frame(FN = -number_false_negatives,
+# 					TN = number_true_negatives,
+# 					FP = -number_false_positives,
+# 					TP =  number_true_positives)
+
+# stat.type is one of the following strings
+#	none
+#	lr			Likelihood ratio
+#	or			Odds ratio
+#	sens		Sensitivity
+#	spec		Specificity
+#	ppv			Positive predictive value
+#	npt			Negative predictive value
+#	pct			Percent positive
+#	prev		Prevalence
+#	chisq_stat	Chisq test statistic
+#	chisq_stat	Chisq test p-value
+
+# square is a boolean argument that determines whether
+# we force a square coordinate system on the plots.
+
 truth <- function(d, stat.type, square, is.pdf = F){
 	
     frame.fill <- 'black'
