@@ -7,7 +7,7 @@ A Visual Presentation of Statistical Concepts in Diagnostic Testing: The Two by 
 http://www.ajronline.org/doi/full/10.2214/AJR.13.11954
 ```
 
-Demo at https://bkjohnson.shinyapps.io/truth/
+Demo at https://bkjohnson.shinyapps.io/truth-diagrams/
 
 ### Installation
 
