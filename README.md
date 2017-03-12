@@ -1,6 +1,6 @@
 # truth-diagrams
 
-Code for Kevin Johnson's 2-by-2 "truth diagrams".
+Code for plotting two-by-two "truth diagrams", as described in the paper cited below.
 
 # Interactive plotting via <code>Shiny</code> interface
 After installing the <code>R</code> package <code>shiny</code> on your machine, navigate to folder, run
