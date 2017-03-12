@@ -3,7 +3,8 @@
 Code for plotting two-by-two "truth diagrams", as described in
 ```
 Kevin M. Johnson and Benjamin K. Johnson. 
-A Visual Presentation of Statistical Concepts in Diagnostic Testing: The Two by Two Diagram.  American Journal of Roentgenology. 2014; 203: W14-W20.  
+A Visual Presentation of Statistical Concepts in Diagnostic Testing: The Two by Two Diagram.  
+American Journal of Roentgenology. 2014; 203: W14-W20.  
 http://www.ajronline.org/doi/full/10.2214/AJR.13.11954
 ```
 
