@@ -19,5 +19,5 @@ https://bkjohnson.shinyapps.io/truth/
 
 Then open `http://localhost:9000` in your browser.
 
-# Plotting from R
-`truth_plot.R` provides the main plotting function `truth`.
+### Notes
+`truth_plot.R` provides the main plotting function `truth`, which you could incorporate into other R scripts if you want to programatically generate diagrams.
