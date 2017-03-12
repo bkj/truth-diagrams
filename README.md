@@ -1,22 +1,26 @@
 # truth-diagrams
 
-Code for plotting two-by-two "truth diagrams", as described in the paper cited below.
-
-# Interactive plotting via <code>Shiny</code> interface
-After installing the <code>R</code> package <code>shiny</code> on your machine, navigate to folder, run
-  
-    Rscript -e "shiny::runApp(port = 888)"
-
-and open <code>http://localhost:888/</code> in your browser.
-
-# Plotting from R
-<code>truth_plot.R</code> provides the main plotting function <code>truth()</code>.  Further details on the arguments
-to this function are included at the top of this file.
-
-# Citation
-
+Code for plotting two-by-two "truth diagrams", as described in
 ```
 Kevin M. Johnson and Benjamin K. Johnson. 
 A Visual Presentation of Statistical Concepts in Diagnostic Testing: The Two by Two Diagram.  American Journal of Roentgenology. 2014; 203: W14-W20.  
 http://www.ajronline.org/doi/full/10.2214/AJR.13.11954
 ```
+
+### Demo
+
+... link to demo ...
+
+### Quickstart
+
+    cd $PROJECT_ROOT
+    
+    # Install dependencies
+    ./install.R 
+    
+    ./run.sh
+
+Then open `http://localhost:9000` in your browser.
+
+# Plotting from R
+`truth_plot.R` provides the main plotting function `truth`.
