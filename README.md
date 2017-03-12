@@ -7,23 +7,13 @@ A Visual Presentation of Statistical Concepts in Diagnostic Testing: The Two by 
 http://www.ajronline.org/doi/full/10.2214/AJR.13.11954
 ```
 
-Demo at https://bkjohnson.shinyapps.io/truth/
+### Demo
 
-### Installation
-
-    cd $PROJECT_ROOT
-    ./install.R
-    
-    # NB: Requires "shiny 0.8.0" and "ggplot2 0.9.3.1"
-    # Will fix this shortly
+https://bkjohnson.shinyapps.io/truth/
 
 ### Quickstart
 
-    cd $PROJECT_ROOT
-    
-    # Install dependencies
-    ./install.R 
-    
+    cd $PROJECT_ROOT    
     ./run.sh
 
 Then open `http://localhost:9000` in your browser.
